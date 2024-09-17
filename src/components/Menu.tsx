@@ -71,7 +71,7 @@ const Menu: React.FunctionComponent<MenuProps> = props => {
 	const commonProps = { dateRange, minDate, maxDate, helpers, handlers };
 	return (
 		<Paper elevation={5} square>
-			<Grid container direction="row" wrap="nowrap">
+			<Grid container direction="row" wrap="wrap">
 				<Grid>
 					<Grid container className={classes.header} alignItems="center">
 						<Grid item className={classes.headerItem}>
